@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color:purple;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding-left:26px;
+    padding-top:2px;
+    font-size:30px;
+    align-items:center;
+}
+body{
+    background-color:purple;
+    background-image: url('uchegod red logo.png');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 670px;
+}
+
+.head{
+    font-weight: bold;
+    font-size: 80px;
+    padding-left: 8px;
+    margin-top:290px;
+    color:transparent;
+    -webkit-text-stroke: 2px gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head::before{
+    content:"UCHEGOD ";
+    position:absolute;
+    width:0%;
+    height:15%;
+    overflow:hidden;
+    color: gold;
+    border-right:3px solid black;
+    transition:1s;
+}
+.head:hover::before{
+    width:40%;
+    filter:drop-shadow(0 0 25px gold)
+}
+
+.visitpage{
+    margin-top: 140px;
+    background-color: palegoldenrod;
+    height: 70px;
+    font-weight: bold;
+}
+.description{
+    padding-left:14px ;
+    padding-right:490px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

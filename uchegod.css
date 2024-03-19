@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color:rgba(79, 1, 79, 0.935);
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding-left:26px;
+    padding-top:2px;
+    font-size:30px;
+    align-items:center;
+}
+body{
+    background-color: rgb(6, 9, 11);
+}
+.menu{
+    position:absolute;
+    left:-400px;
+    width:400px;
+    height:100%;
+    background:rgb(76, 1, 76);
+    transition:all .3s ease;
+    margin:0;
+    padding:0;
+}
+.menu header{
+    font-size:22px;
+    color:white;
+    text-align:center;
+    line-height:70px;
+}
+#check{
+    display:none;
+}
+.head{
+    font-size: 30px;
+    padding-left: 8px;
+    color:beige;
+}
+label .menuimage .cancelimage{
+    position:absolute;
+    width:15px;
+    height:15px;
+}
+label .menuimage{
+    left:5px;
+    margin-top:10px;
+    width:25px;
+    height:22px;
+    transition:all .5s;
+}
+label .cancelimage{
+    z-index: 111;
+    margin-left:350px;
+    margin-top:11px;
+    transition:all .5s ease;
+    height:22px;
+    width:25px;
+}
+#check:checked ~.menu{
+    left:0px;
+}
+.description{
+    padding-left:37px ;
+    background:rgb(76, 1, 76);
+    color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.search-form{
+    display:flex;
+    flex-direction:row;
+    height:20%;
+    margin-left:3px;
+}
+.search-box{
+    width:60%;
+    margin-top:3px;
+    height: 30px;
+    outline:solid 0.5px;
+}
+
+.searchbtn{
+    background-color:purple;
+    margin-top:3px;
+    outline:solid 1px;
+    width:10%;
+    color:black;
+}
+.whitewedding{
+    width:100%;
+    margin-top:5px ;
+}
